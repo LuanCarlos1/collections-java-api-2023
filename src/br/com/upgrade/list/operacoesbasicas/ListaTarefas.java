@@ -26,7 +26,4 @@ public class ListaTarefas {
     public List<Tarefa> obterDescricoesTarefas() {
         return listaTarefas;
     }
-
-
-
 }
