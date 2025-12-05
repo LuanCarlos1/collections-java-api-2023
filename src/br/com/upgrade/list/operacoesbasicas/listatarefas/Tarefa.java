@@ -1,4 +1,4 @@
-package br.com.upgrade.list.operacoesbasicas;
+package br.com.upgrade.list.operacoesbasicas.listatarefas;
 
 public record Tarefa(String descricao) {
 

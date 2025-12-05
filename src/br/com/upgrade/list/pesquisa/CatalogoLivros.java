@@ -39,16 +39,16 @@ public class CatalogoLivros {
         return livrosPorAno;
     }
 
-    public List<Livro> pesquisarPorTitulo(String titulo) {
-        List<Livro> livrosPorTitulo = new ArrayList<>();
+    public Livro pesquisarPorTitulo(String titulo) {
+        Livro livroPorTitulo = null;
         if (!cataligoLivros.isEmpty()) {
             for (Livro livro : cataligoLivros) {
                 if (livro.titulo().equalsIgnoreCase(titulo)) {
-                    livrosPorTitulo.add(livro);
+                    livroPorTitulo = livro;
+                    break;
                 }
             }
         }
-        return livrosPorTitulo;
+        return livroPorTitulo;
     }
-
 }
