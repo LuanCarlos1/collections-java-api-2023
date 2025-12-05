@@ -1,4 +1,4 @@
-package br.com.upgrade.list.pesquisa;
+package br.com.upgrade.list.pesquisa.catalogolivros;
 
 public record Livro(String titulo, String autor, int anoPublicacao) {
     @Override

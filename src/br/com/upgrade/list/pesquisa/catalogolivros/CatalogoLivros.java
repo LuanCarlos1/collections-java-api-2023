@@ -1,4 +1,4 @@
-package br.com.upgrade.list.pesquisa;
+package br.com.upgrade.list.pesquisa.catalogolivros;
 
 import java.util.ArrayList;
 import java.util.List;
